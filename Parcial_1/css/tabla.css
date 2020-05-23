@@ -1,0 +1,17 @@
+tr:nth-child(even){
+    background-color: #E9DEC8;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.tabla{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+    box-shadow:  3px 3px 15px 3px #6C6C6C;
+    padding: 8px;
+    box-sizing: border-box;
+}

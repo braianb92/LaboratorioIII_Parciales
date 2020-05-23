@@ -1,0 +1,45 @@
+/*Layout*/
+section{
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+/*Fin Layout*/
+
+/*Elementos*/
+input{
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+
+input[type=text]{
+    padding: 8px;
+    margin: 4px;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+input[type=date]{
+    padding: 8px;
+    margin: 4px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+input[type=radio]{
+    margin-right: 4%;
+}
+
+select{
+    padding: 8px;
+    margin: 4px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+/*Fin Elementos*/
+
+
+
+
