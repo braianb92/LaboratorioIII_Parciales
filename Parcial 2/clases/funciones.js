@@ -3,7 +3,7 @@ var MisFunciones;
     var tablaVehiculo;
     var listaVehiculos;
     window.onload = function () {
-        listaVehiculos = [{ 'id': 1, 'marca': 'Audi', 'modelo': 'A7', 'precio': 100000, 'cantidadPuertas': 5 }, { 'id': 2, 'marca': 'Dodge', 'modelo': 'RAM', 'precio': 900000, 'cuatroXcuatro': '4x4' }];
+        listaVehiculos = [];
         inicializarTabla(listaVehiculos);
         var filtroTipo = document.getElementById('filtroTipo');
         filtroTipo.onchange = filtrarTabla;

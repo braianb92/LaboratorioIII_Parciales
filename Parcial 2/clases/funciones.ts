@@ -5,7 +5,7 @@ namespace MisFunciones{
 
     window.onload = function(){
 
-        listaVehiculos = [{'id':1,'marca':'Audi','modelo':'A7','precio':100000,'cantidadPuertas':5},{'id':2,'marca':'Dodge','modelo':'RAM','precio':900000,'cuatroXcuatro':'4x4'}]
+        listaVehiculos = [];
         inicializarTabla(listaVehiculos);
 
         let filtroTipo = document.getElementById('filtroTipo');
