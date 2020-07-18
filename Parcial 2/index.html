@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./src/index.js"></script>
+    <script src="./clases/vehiculo.js"></script>
+    <script src="./clases/auto.js"></script>
+    <script src="./clases/camioneta.js"></script>
+    <script src="./clases/tabla.js"></script>
+    <script src="./clases/formulario.js"></script>
+    <script src="./clases/funciones.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Typescript</title>
+</head>
+<body>
+    <header>
+        <h1>Parcial 2 | Baldino Braian</h1>
+    </header>
+
+    <div class="formContainer">
+        <div id="formVehiculo"></div>
+    </div>
+
+    <div class="filtros">
+        <label class="filterName" for="filtroTipo">Filtrar por: </label>
+        <select id="filtroTipo">
+            <option value="Todos">Todo</option>
+            <option value="Auto">Auto</option>
+            <option value="Camioneta">Camioneta</option>
+        </select>
+        <label class="filterName" for="promedioPrecio">Promedio de precio: </label>
+        <input type="text" id="promedioPrecio">
+    </div>
+
+    <div class="filtros">
+        <label class="filterName" for="checkid">Id</label>
+        <input checked type="checkbox" id="checkid">
+        <label class="filterName" for="checkmarca">Marca</label>
+        <input checked type="checkbox" id="checkmarca">
+        <label class="filterName" for="checkmodelo">Modelo</label>
+        <input checked type="checkbox" id="checkmodelo">
+        <label class="filterName" for="checkprecio">Precio</label>
+        <input checked type="checkbox" id="checkprecio">
+        <label class="filterName" for="checktipo">Tipo</label>
+        <input checked type="checkbox" id="checktipo">
+    </div>
+
+    <!--Tabla Dinamica-->
+    <div class="grilla"> 
+        <div class="botonera">
+        <button onclick="MisFunciones.FormularioVehiculo.formularioVehiculo()" class="addButton" id="btnAddVehiculo">Alta</button>
+    </div>
+        <table id="tablaVehiculo"></table>
+    </div>
+    <!--/Tabla Dinamica-->
+    
+    
+</body>
+</html>
